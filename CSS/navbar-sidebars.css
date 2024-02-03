@@ -1,0 +1,145 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rajdhani:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #25000048;
+}
+
+/* Navbar */
+.navbar-container {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: relative;
+}
+
+.menu-bar {
+    font-size: 20px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Black Ops One', system-ui;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.right-contents {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 23px;
+}
+
+.search,
+.cart {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Menu Sidebar */
+.menu-sidebar {
+    left: -250px;
+}
+.sidebar-top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.sidebar-top .menu-bar{
+    margin-right: 7px;
+}
+
+.sidebar-mid li,
+.sidebar-bot li{
+    border-radius: 13px;
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 18px;
+}
+.sidebar-mid li:hover,
+.sidebar-bot li:hover{
+    background: red;
+    cursor: pointer;
+    transition: ease 0.2s;
+    color: black;
+}
+
+.mid-icon{
+    padding-right: 7px;
+}
+
+.sidebar-bot li{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logout{
+    margin-right: 7px;
+}
+
+/* Search Sidebar */
+.search-sidebar {
+    right: -250px;
+}
+
+/* Cart Sidebar */
+.cart-sidebar {
+    right: -250px;
+}
+
+/* Overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

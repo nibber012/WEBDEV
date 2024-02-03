@@ -25,6 +25,10 @@
         </div>
     </header>
 
+    <section>
+        Try lang
+    </section>
+
     <!-- Menu Sidebar -->
     <div class="sidebar menu-sidebar" id="menu-sidebar">
         <!-- Menu Sidebar content goes here -->
