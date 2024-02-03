@@ -28,6 +28,7 @@
     <section>
         Try lang (Note: Una kong nilagay pagtapos panoorin yung tutorial)
         Second (Note: Pangalawang lagay para macheck kung nareregister yung changes sa Github)
+        Another: Same idea
     </section>
 
     <!-- Menu Sidebar -->
