@@ -1,0 +1,1 @@
+Ito na yung tunay na repository? Kasi ngayon lang ako nagaral ng git? Sorry. ahhaha. Anyways. Manood nalang kayo tutorials sa youtube and iinstall to. https://l.messenger.com/l.php?u=https%3A%2F%2Fgit-scm.com%2Fdownloads&h=AT1tL5TazdNZxeqQuryUsmzhpuSj-kaGTa7saM2JwI6UN2JyhaAubh5VWuAB3i65VG7nif-t6Ub0QNQCVRrt5_r5tTUllq4lFqu7XlSCn-JjfEkT4aA312Up93KwRlzrP4tdTg
