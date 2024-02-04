@@ -2,7 +2,7 @@
 <div class="interface-container">
     <div class="login-interface">
         <h1>Welcome to Data Breach</h1>
-        <p class="tw">Please login to continue</p>
+        <p class="tw">Please login to continue.</p>
         <h2>Login</h2>
         <form action="login_process.php" method="post">
             <label for="username">Username:</label>

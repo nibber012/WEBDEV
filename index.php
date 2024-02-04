@@ -10,12 +10,13 @@
     <script src="https://kit.fontawesome.com/75f6239104.js" crossorigin="anonymous"></script>
     <!-- FontAwesome Link^ -->
 </head>
+
 <body>
     <header>
         <div class="navbar-container">
             <div class="left-contents">
                 <span class="menu-bar" onclick="toggleSidebar('menu-sidebar')"><i class="fa-solid fa-bars"></i></span>
-                <span href="#" class="logo">Data Breach</span>
+                <span href="#" class="logo">Data-Breach</span>
             </div>
 
             <div class="right-contents">
@@ -24,12 +25,6 @@
             </div>
         </div>
     </header>
-
-    <section>
-        Try lang (Note: Una kong nilagay pagtapos panoorin yung tutorial)
-        Second (Note: Pangalawang lagay para macheck kung nareregister yung changes sa Github)
-        Another: Same idea
-    </section>
 
     <!-- Menu Sidebar -->
     <div class="sidebar menu-sidebar" id="menu-sidebar">
