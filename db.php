@@ -7,7 +7,7 @@
     if ($conn->connect_error) {
         die('Connection Failed : ' .$conn->connect_error);
     }else {
-        $stmt = $conn->prepare("INSERT INTO registration (username, password) VALUES (?, ?)");
+        $stmt = $conn->prepare("INSERT INTO form (username, password) VALUES (?, ?)");
     
         if (!$stmt) {
             die('Error in preparing the statement: ' . $conn->error);
